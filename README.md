@@ -1,1 +1,2 @@
 # neural_network_on_PostgreSQL
+ニューラルネットワークをPostgreSQL上に実装していく。
