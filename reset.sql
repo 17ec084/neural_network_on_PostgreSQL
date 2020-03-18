@@ -1,0 +1,11 @@
+DROP SCHEMA Perceptron_sigmoid;
+DROP SCHEMA Perceptron_identity;
+DROP TYPE Perceptron_sigmoid.fields;
+DROP TYPE Perceptron_identity.fields;
+DROP FUNCTION Perceptron_sigmoid.construct;
+DROP FUNCTION Perceptron_identity.construct;
+DROP FUNCTION calculate(this Perceptron_sigmoid.fields, inputs numeric[]);
+DROP FUNCTION calculate(this Perceptron_identity.fields, inputs numeric[]);
+DROP FUNCTION dot_(vector1 numeric[], vector2 numeric[]);
+DROP FUNCTION D(this Perceptron_sigmoid.fields, inputs numeric[]);
+DROP FUNCTION sigmoid;
